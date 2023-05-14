@@ -1,0 +1,152 @@
+.logo
+{
+	width:200px;
+	margin-left:600px;
+	
+}
+
+
+.h1
+{
+	font-size:50px;
+	margin-left:550px;
+	text-shadow: #4F42B5 2px 5px;
+	color:#20B2AA
+	
+	
+}
+
+.h2
+{
+	font-size:100px;
+	margin-left:400px;
+	margin-top:200px;
+	text-shadow: #705DFF 5px 5px;
+	color:#F0E4BB
+}	
+
+body
+{
+	font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+
+	
+}
+
+html
+{
+	background-image: url("image/mainFonts.jpg");
+	background-size:1500px;
+	background-repeat:no-repeat;
+}
+
+
+
+.nav_link1
+{
+	display: inline-block;/*Для красоты*/
+	color: #FFFFFF;
+	text-decoration: none; /*Подчёркивание*/
+	position: relative; /*Сдвиг ссылок*/
+	top: -300px;
+	right: -550px;
+	text-shadow: #F0EAD6 2px 5px;
+	color:#20B2AA
+	
+
+}
+.nav_link1:hover /*Изменение текста при наведении*/
+{
+	color:#F4CA16;
+}
+
+
+.nav_link2
+{
+	display: inline-block;/*Для красоты*/
+	color: #FFFFFF;
+	text-decoration: none; /*Подчёркивание*/
+	position: relative; /*Сдвиг ссылок*/
+	top: -20px;
+	right: 100px;
+	text-shadow: #F0EAD6 2px 5px;
+	color:#814BCC
+}
+
+.nav_link2:hover /*Изменение текста при наведении*/
+{
+	color:#EB4C42;
+}
+	
+	
+	
+	
+.nav_link3
+{
+	display: inline-block;/*Для красоты*/
+	color: #FFFFFF;
+	text-decoration: none; /*Подчёркивание*/
+	position: relative; /*Сдвиг ссылок*/
+	top: -20px;
+	right: -290px;
+	text-shadow: #F0EAD6 2px 5px;
+	color:#64D73F
+}
+
+.nav_link3:hover /*Изменение текста при наведении*/
+{
+	color:#F42EDD;
+}
+
+
+.nav_link4
+{
+	display: inline-block;/*Для красоты*/
+	color: #FFFFFF;
+	text-decoration: none; /*Подчёркивание*/
+	position: relative; /*Сдвиг ссылок*/
+	top: -465px;
+	right: 850px;
+	box-shadow: inset 0 0 6px;
+	color:white;
+	
+}
+
+.nav_link4:hover /*Изменение текста при наведении*/
+{
+	color:#9457EB;
+}
+
+
+
+.nav_link5
+{
+	display: inline-block;/*Для красоты*/
+	color: #FFFFFF;
+	text-decoration: none; /*Подчёркивание*/
+	position: relative; /*Сдвиг ссылок*/
+	top: -465px;
+	right: -10px;
+	
+			border-radius: 10px;
+   color: #36454A;
+   background: -webkit-linear-gradient(top, #A4D3E0, #A4D3E0 50%, #CBE3EB 50%);
+   background: -o-linear-gradient(top, #A4D3E0, #A4D3E0 50%, #CBE3EB 50%);
+   background: linear-gradient(to top, #A4D3E0, #A4D3E0 50%, #CBE3EB 50%);
+   box-shadow: 2px 2px 3px black;
+	
+}
+
+.nav_link5:hover /*Изменение текста при наведении*/
+{
+	color:#EB4C42;
+
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}

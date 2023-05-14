@@ -1,0 +1,440 @@
+.logo
+{
+	width:200px;
+	left:450px;
+	top:140px;
+}
+
+.button {
+position: relative;
+left:30%;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+background: #20B2AA;
+padding: 1em 2em;
+border: none;
+color: white;
+font-size: 1.2em;
+cursor: pointer;
+outline: none;
+overflow: hidden;
+border-radius: 100px;
+}
+
+.button span {
+position: relative;
+pointer-events: none;
+
+
+}
+
+.button::before {
+--size: 0;
+content: '';
+position: absolute;
+left: var(--x);
+top: var(--y);
+width: var(--size);
+height: var(--size);
+background: radial-gradient(circle closest-side, #4405f7, transparent);
+-webkit-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+transition: width .2s ease, height .2s ease;
+}
+
+.button:hover::before {
+--size: 400px;
+}
+
+
+
+html
+{
+	background-image: url("image/mainFonts1.jpg");
+	background-size:100%;
+	background-repeat:no-repeat;
+	
+}
+
+
+
+.nav_link1 {
+	color: #06101A; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+	top: -60px;
+	right: -400px;
+	font-weight: 900;
+}
+.nav_link1:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color:white; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.nav_link1:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+
+
+.nav_link2 {
+	color: #06101A; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+	top: -60px;
+	right: -450px;
+	font-weight: 900;
+}
+.nav_link2:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color:white; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.nav_link2:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_link3 {
+	color: #06101A; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+	top: -60px;
+	right: -500px;
+	font-weight: 900;
+}
+.nav_link3:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color:white; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.nav_link3:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+
+.nav_link4 {
+	color: #06101A; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+	top: -60px;
+	right: -550px;
+	font-weight: 900;
+}
+.nav_link4:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color:white; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.nav_link4:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+.nav_link5 {
+	color: #06101A; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+	top: -60px;
+	right: -600px;
+	font-weight: 900;
+}
+.nav_link5:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color:white; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.nav_link5:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+.nav_link6
+{
+	display: inline-block;/*Для красоты*/
+	color: black;
+	text-decoration: none; /*Подчёркивание*/
+	position: relative; /*Сдвиг ссылок*/
+	top: -60px;
+	right: -650px;
+	text-shadow: #F0EAD6 2px 5px;
+	color:black;
+	font-weight: 900;
+	
+
+}
+.nav_link6:hover /*Изменение текста при наведении*/
+{
+	color:#276EB6;
+}
+
+
+.nav_link7
+{
+	display: inline-block;/*Для красоты*/
+	color: black;
+	text-decoration: none; /*Подчёркивание*/
+	position: relative; /*Сдвиг ссылок*/
+	top: 310px;
+	right: 500px;
+	text-shadow: #318CE7 3px 10px;
+	color:#FDF5E6;
+	font-weight: 900;
+
+}
+
+
+
+<head>
+ 
+<style>
+html {
+  
+}
+ 
+#блок1 {
+  height: 835px;
+ 
+}
+ 
+#блок2 {
+  height: 6300px;
+
+  background: white;
+}
+
+
+
+.main1
+{
+	
+	 	font-size:30px;
+	margin-left:80px;
+	margin-top:100px;
+	color:black;
+}
+
+.ponyatie
+{
+	
+	 	font-size:20px;
+	margin-left:0px;
+	margin-top:50px;
+	color:black;
+	font-weight: 400;
+}	
+
+.ponyatie1
+{
+	
+	 	font-size:20px;
+	margin-left:0px;
+	margin-top:50px;
+	color:black;
+	font-weight: 400;
+}	
+
+.rectangle {
+counter-reset: li; 
+list-style: none; 
+
+font-size:20px;
+
+
+}
+.rectangle  {
+position: relative;
+display: block;
+margin: auto;
+background: #9CE5C5;
+color: black;
+text-decoration: none;
+
+}
+.rectangle :hover {background: #318CE7;}       
+
+
+
+
+.rectangle1 {
+counter-reset: li; 
+list-style: none; 
+
+font-size:20px;
+
+
+}
+.rectangle1  {
+position: relative;
+display: block;
+margin: auto;
+background: #9CE5C5;
+color: black;
+text-decoration: none;
+
+}
+.rectangle1 :hover {background: #318CE7;}       
+
+.logo1
+{
+	
+
+	width:250px;
+	
+	
+
+}
+
+.main1 h1
+{
+	color: black;
+	text-decoration: none; /*Подчёркивание*/
+	position: relative; /*Сдвиг ссылок*/
+	text-shadow: #F0E3D6 3px 10px;
+	color:#276EB6;
+	font-weight: 900;
+}
+
+.main1 h2
+{
+	color: black;
+	text-decoration: none; /*Подчёркивание*/
+	position: relative; /*Сдвиг ссылок*/
+	text-shadow: #318CE7 3px 10px;
+	color:#F0D2D6;
+	font-weight: 900;
+}
+
+.main1 h3
+{
+	color: black;
+	text-decoration: none; /*Подчёркивание*/
+	position: relative; /*Сдвиг ссылок*/
+	text-shadow: #318CE7 3px 10px;
+	color:#F0D2D6;
+	font-weight: 900;
+}
+
+.main1 h4
+{
+	color: black;
+	text-decoration: none; /*Подчёркивание*/
+	position: relative; /*Сдвиг ссылок*/
+	text-shadow: #318CE7 3px 10px;
+	color:#F0D2D6;
+	font-weight: 900;
+}
+
+
+.main1 h5
+{
+	color: black;
+	text-decoration: none; /*Подчёркивание*/
+	position: relative; /*Сдвиг ссылок*/
+	text-shadow: #318CE7 3px 10px;
+	color:#F0D2D6;
+	font-weight: 900;
+}
+
+</style>
+ 
+</head>
+
+
+
+
