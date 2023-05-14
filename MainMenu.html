@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head >
+	<meta charset = "UTF-8">
+	<title>GodotBlog</title>
+	
+	<style>
+	 footer {
+	 font-size:20px;
+        padding: 20px 200px;
+        background: #2976C3;
+        color: white;
+      }
+	  
+	 
+	</style>
+	
+	
+   
+	<link rel="icon"  href="assets/image/title.png">
+	<link rel="stylesheet" href="assets/mainMenu.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+
+	</head>
+	
+	
+		<body>
+		
+
+		
+		<section class="main" id="блок1" >
+		 <a href="#блок2"></a>
+		
+		<header>
+		<a href="MainMenu.html" > <img src="assets/image/logo.png" class="logo" ></a>
+		
+		
+		
+		
+		
+		</header>
+		
+		
+		
+		<nav>
+		
+		<a class="nav_link1" href="https://steamcommunity.com/app/404790/reviews/?browsefilter=toprated" target="blank"  style="font-size:20px  ; font-family:'century gothic'" >Клиенты и отзывы</a>
+		
+		<a class="nav_link2" href="https://habr.com/ru/company/timeweb/blog/659891/" target="blank"  style="font-size:20px  ; font-family:'century gothic'" >Движки</a>
+		
+		
+		
+		
+		<a class="nav_link3" href="https://godotengine.org/" target="blank"  style="font-size:20px  ; font-family:'century gothic'" >Мы</a>
+		
+		<a class="nav_link4"  href="#блок2"   style="font-size:20px  ; font-family:'century gothic'" >Блог</a>
+		
+		<a class="nav_link5" href="testing.html"  style="font-size:20px  ; font-family:'century gothic'" >Контакты</a>
+		 <a class="nav_link6" href=""  style="font-size:20px  ; font-family:'century gothic'" >+79532778904</a>
+		
+		<a class="nav_link7" style="font-size:30px; font-family:'century gothic'" hspace="100px" >Создание игры на GodotEngine</a>
+		
+		
+
+    
+  </div> 
+  
+
+		
+		</section>	
+		</nav>
+		
+
+		
+		
+		<section class="main1" id="блок2">
+		
+
+		
+			 <h1 style=" font-family:'century gothic'">Начало работы на GodotEngine</h1>	
+			 <p class="ponyatie" style=" font-family:'century gothic'">Godot Engine — это бесплатный универсальный кроссплатформенный игровой движок, который упрощает создание 2D - и 3D-игр.</p>
+			 
+			 
+			 
+			 <h2 style=" font-family:'century gothic'">Узлы</h2>
+			 
+			 <p class="ponyatie1" style=" font-family:'century gothic'"> Узлы — это фундаментальные строительные блоки вашей игры. Они подобны ингредиентам в рецепте. Существуют десятки их видов, которые могут отображать изображение, воспроизводить звук, представлять камеру и многое другое.</p>
+			
+			<img src="assets/image/godot1.jpg" hspace="300px" height="500px" vspace="50px">
+			
+			<ul  style=" font-family:'century gothic'">
+			<p  style=" font-family:'century gothic'">Все узлы имеют следующие атрибуты:</p>
+			<ul class="rectangle" style=" font-family:'century gothic'">
+				<li>Имя.</li>
+				<li>Редактируемые свойства.</li>
+				<li>Они получают обратные вызовы для обновления каждого кадра.</li>
+				<li>Вы можете расширить их новыми свойствами и функциями.</li>
+				<li>Вы можете добавить их в другой узел в качестве дочерних.</li>
+			</ul>
+			
+			<p class="ponyatie1" style=" font-family:'century gothic'">Последний атрибут является ключевым. Вместе узлы образуют дерево, которое является мощной функцией для организации проектов. Поскольку разные узлы имеют разные функции, их объединение приводит к более комплексному поведению. Как мы уже видели ранее, вы можете создать игрового персонажа, за которым следует камера, используя узел кинематического тела с именем "Персонаж", узел спрайта, узел камеры и узел формы столкновения.</p>
+			
+			<img src="assets/image/godot2.jpg"  hspace="270px" height="350px" vspace="50px">
+			
+				 <h3 style=" font-family:'century gothic'">Cцены</h3>
+				 
+				<p class="ponyatie1" style=" font-family:'century gothic'">Когда вы организуете узлы в дереве, подобно нашему персонажу, мы называем эту конструкцию сценой. После сохранения сцены работают как новые типы узлов в редакторе, где вы можете добавить их в качестве дочернего элемента существующего узла. В этом случае экземпляр сцены отображается как отдельный узел со скрытыми внутренними элементами.</p>
+				
+				<p  class="ponyatie1" style=" font-family:'century gothic'">Сцены позволяют вам структурировать код вашей игры так, как вы этого хотите. Вы можете компоновать узлы для создания произвольных и сложных типов узлов, таких как игровой персонаж, который бегает и прыгает, полоса жизни, сундук, с которым можно взаимодействовать, и многое другое.</p>
+				
+				
+				<img src="assets/image/godot3.jpg"  hspace="270px" height="350px" vspace="50px">
+				
+				
+				<p  class="ponyatie1" style=" font-family:'century gothic'">По сути, редактор Godot - это редактор сцен. В нем есть множество инструментов для редактирования 2D- и 3D-сцен, а также пользовательских интерфейсов. Проект Godot может содержать столько сцен, сколько вам необходимо. Движку же требуется только одна сцена - главная сцена. Это сцена, которую Godot загрузит первой, когда вы или игрок запустите игру.</p>
+				
+				
+				<ul class="rectangle1" style=" font-family:'century gothic'">
+				<li>Они всегда имеют один корневой узел, как "Персонаж" в нашем примере.</li>
+				<li>Вы можете сохранить их на вашем жестком диске и загрузить позже.</li>
+				<li>Вы можете создать столько экземпляров сцены, сколько захотите. В вашей игре может быть пять или десять персонажей, созданных на основе сцены "Персонаж".</li>
+				
+				</ul>
+				
+				<h4 style=" font-family:'century gothic'">Создание вашей первой сцены</h4>
+				
+				<p  class="ponyatie1" style=" font-family:'century gothic'">Давайте создадим нашу первую сцену с одним узлом. Для этого сначала нужно создать новый проект. После открытия проекта вы должны увидеть пустой редактор.</p>
+				
+				<img src="assets/image/godot4.jpg"  hspace="270px" height="350px" vspace="50px">
+				
+				
+				<p  class="ponyatie1" style=" font-family:'century gothic'">Мы собираемся добавить в нашу сцену узел Label. Его функция заключается в отрисовке текста на экране.Нажмите "Добавить дочерний узел" или "другой узел" для создания корневого узла.</p>
+				
+				<img src="assets/image/godot5.jpg"  hspace="270px" height="350px" vspace="50px">
+		
+		
+				<p  class="ponyatie1" style=" font-family:'century gothic'">Откроется диалоговое окно "Create Node" (Создать узел), в котором отобразится длинный список доступных узлов.</p>	
+				
+				<img src="assets/image/godot6.jpg"  hspace="270px" height="500px" vspace="50px">
+				
+				<p  class="ponyatie1" style=" font-family:'century gothic'">Выберите узел Label (Метка). Вы можете ввести его имя, чтобы отфильтровать его по списку.</p>	
+				
+				<img src="assets/image/godot7.jpg"  hspace="270px" height="500px" vspace="50px">
+				
+				<h5 style=" font-family:'century gothic'">Изменение свойств узла</h5>
+				
+				<p  class="ponyatie1" style=" font-family:'century gothic'">Следующим шагом будет изменение свойства Label's "Text". Давайте изменим его на "Hello World".Перейдите на вкладку Inspector (справа от окна просмотра). Щелкните внутри поля под свойством Text и введите "Hello World".</p>	
+				<img src="assets/image/godot8.jpg"  hspace="270px" height="400px" vspace="50px">
+				
+								 <button class="button"  onclick="window.location.href = 'registr.html';">
+<span>Пройти курс Godot</span>
+<script>
+document.querySelector('.button').onmousemove = function (e) {
+var x = e.pageX - e.target.offsetLeft;
+var y = e.pageY - e.target.offsetTop;
+e.target.style.setProperty('--x', x + 'px');
+e.target.style.setProperty('--y', y + 'px');
+};
+</script>
+</button>
+				
+		</section>
+		
+		<div>
+     <footer>
+      <p>Компания ©TestGame. Все права защищены.</p
+				
+				
+    </footer>
+  </div>
+		<script src="Java.js"></script>
+		</body>
+</html>
